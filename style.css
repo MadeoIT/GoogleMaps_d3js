@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%; 
+}
+h1 {
+    text-align: center;
+}
+.marker, .marker svg {
+    position: absolute;
+}
+.sub-list:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
